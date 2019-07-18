@@ -16,12 +16,6 @@ function sumAll(n) {
 sumAll(2); // 3
 sumAll(4); // 10
 
-// Перероблений варіант
-function sumAll(n) {
-  return n == 1 ? 0 : +n + sumAll(n - 1);
-}
-sumAll(2); // 3
-sumAll(4); // 10
 
 // task4
     function factorial(n) {
